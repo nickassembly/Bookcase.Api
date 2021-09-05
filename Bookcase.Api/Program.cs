@@ -7,7 +7,7 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/shelf", () => new[] { "/works/OL64468W", "/works/OL103134W" });
 
 app.Run();
 
